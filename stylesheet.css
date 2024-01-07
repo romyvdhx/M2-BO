@@ -20,7 +20,15 @@ body{
    }
 
    .logoHeader{
-    display:block;
+    display: block;
     width: 5%;
     padding: 6px;
+   }
+
+   .name{
+    font-size: 400%;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
    }
