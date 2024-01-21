@@ -19,6 +19,35 @@ body{
     height: 50%;
    }
 
+   nav{
+    width: 60vw;
+    height: 100%;
+    margin: 0% auto;
+    
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:50px;
+}
+
+nav > ul > li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
    .logoHeader{
     display: block;
     width: 5%;
