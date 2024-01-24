@@ -151,28 +151,11 @@ li:hover{
 
 .footer > div > h2{
     padding: 10px;
-    margin-top: 20px;
-}
-
-.openingstijden{
-
-}
-
-.specialeOpeningstijden{
-    padding: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .contact{
   text-align: center;
-}
-
-.socials{
-
-}
-
-.socials > figure{
-    
 }
 
 .socials > figure > img{
