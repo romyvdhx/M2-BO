@@ -9,7 +9,7 @@ body{
     font-family: sans-serif;
 }
 
-#header{
+.header{
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -19,13 +19,13 @@ body{
     padding: 0 260px;
 }
 
-#header > nav{
+.header > nav{
     height: 100%;
     width: 100%;
     display: flex;
 }
 
-#header > div{
+.header > div{
     height: 100%;
     width: 100%;
 }
@@ -135,4 +135,9 @@ li:hover{
     display: block;
     text-align: center;
     margin-top: 2%;
+}
+
+footer{
+    background: black;
+    color: white;
 }
