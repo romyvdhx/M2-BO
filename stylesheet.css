@@ -137,7 +137,50 @@ li:hover{
     margin-top: 2%;
 }
 
-footer{
+.footer{
     background: black;
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    margin-bottom: 20px;
+}
+
+.footer > div > h2{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.openingstijden{
+
+}
+
+.specialeOpeningstijden{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.contact{
+  text-align: center;
+}
+
+.socials{
+
+}
+
+.socials > figure{
+    
+}
+
+.socials > figure > img{
+    width: 20px;
+    height: 20px;
+}
+
+.socials > figure > a{
+    text-decoration: none;
     color: white;
 }
