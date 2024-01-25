@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NXT Museum</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/main.js" defer></script>
 </head>
-<body>
+<body id="js--body">
     <header class="header">
         <nav>
             <div class="logo">
-                <button class="headerLogo"><img src="images/logo.jpg" alt="Het logo van het NXT Museum"></button>
+                <button id="js--menu" class="headerLogo"><img src="images/logo.jpg" alt="Het logo van het NXT Museum"></button>
             </div>
             <div class="navigation">
                 <ul>
@@ -22,13 +23,22 @@
             </div>
             <div class="language">
                 <ul>
-                    <li class="languageList active"><a href="index.html">NL</a></li>
-                    <li class="languageList">|</li>
-                    <li class="languageList"><a href="english.html">EN</a></li>
+                    <li class="languageList"><a href="index.html">NL</a></li>
+                    <li class="languageList inactive">|</li>
+                    <li class="languageList inactive"><a href="english.html">EN</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    <nav id="js--nav" class="mainNavigation">
+        <ul class="mainNavigationList">
+            <li class="mainNavigationListItem"><a href="index.html">Home</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/tentoonstelling/">What's on</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/jouw-bezoek/">Jouw bezoek</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/de-kunst-van-morgen-vandaag/">Over ons</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/nxt-news/">Blog</a></li>
+        </ul>
+    </nav>
     <main>
         <figure class="bigFigure">
             <img src="images/background.jpg" alt="">
@@ -51,6 +61,7 @@
             <p>Nxt Museum</p>
             <p>Asterweg 22</p>
             <p>1031HP Amsterdam</p>
+            <a href="https://www.google.com/maps/place/Nxt+Museum/@52.3912228,4.9018099,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6093179f05169:0xb7418dbe6d40beb6!8m2!3d52.3912196!4d4.9043902!16s%2Fg%2F11jp00dmgj?entry=ttu">Google Maps</a>
         </div>
         <div class="socials">
             <h2>Socials</h2>

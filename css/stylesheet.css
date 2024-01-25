@@ -93,6 +93,38 @@ li:hover{
     width: 100%;
 }
 
+.mainNavigation{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.8s all;
+}
+
+.mainNavigationList{
+    list-style: none;
+}
+
+.mainNavigationListItem{
+    color: white;
+    font-size: 350%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainNavigationListItem > a{
+    text-decoration: none;
+    color: white;
+}
+
 .language{
     display: flex;
 }
@@ -116,6 +148,11 @@ li:hover{
 .languageList > a{
     text-decoration: none;
     color: white;
+}
+
+.inactive{
+    opacity: 0.5;
+    color: rgb(85, 85, 85);
 }
 
 .bigFigure{
@@ -156,6 +193,12 @@ li:hover{
 
 .contact{
   text-align: center;
+}
+
+.contact > a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
 }
 
 .socials > figure > img{
