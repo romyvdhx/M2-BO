@@ -210,3 +210,67 @@ li:hover{
     text-decoration: none;
     color: white;
 }
+
+.collections{
+    width: 100%;
+    padding: 40px;
+
+}
+
+.collectionsTitle, .infotitle{
+    font-size: 350%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.collectionsList{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.collectionsListItem{
+    width: 600px;
+    height: 700px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    
+}
+
+.collectionsListItem > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.block{
+    background: black;
+    width: 400px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    color: white;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.text{
+
+}
+
+.geschiedenisText{
+    margin-bottom: 90px;
+}
