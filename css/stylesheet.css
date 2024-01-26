@@ -272,15 +272,6 @@ li:hover{
     margin-bottom: 90px;
 }
 
-/* slideshow pictures
-.card > .imagebox{
-    height: 200px;
-}
-.card > .imagebox > img{
-    height: 100%;
-}
-*/
-
 /*ticketbutton*/
 .button{
     font-family: sans-serif;
@@ -289,11 +280,10 @@ li:hover{
     background:black;
     width: 160px;
     padding: 20px;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     color:white;
     cursor: pointer;
-    
+    align-items: flex-end;
 }
 
