@@ -152,6 +152,10 @@ body{
     color: white;
 }
 
+.mainNavigationListItem > a:hover{
+    text-decoration: underline;
+}
+
 button.navButton{
     display: flex;
     left: 0px;
