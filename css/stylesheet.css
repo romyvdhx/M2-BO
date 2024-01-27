@@ -35,21 +35,14 @@ body{
     width: 100%;
     height: 100%;
     margin: 0% auto;
-    
-}
-
-.navigation > ul{
+    overflow: hidden;
     display: flex;
-    list-style: none;
-    height: 100%;
-    width: 100%;
+    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    gap: 50px;
-    padding-left: 0px;
 }
 
-.navigation > ul > li{
+.dropdown{
     width: 100vw;
     height: 100%;
     display: flex;
@@ -57,13 +50,15 @@ body{
     align-items: center;
     justify-content: space-evenly;
     gap: 40px;
+    overflow: hidden;
+    margin: 0;
 }
 
-li:hover{
-    cursor: pointer;
+.dropdown > p{
+    color: white;
 }
 
-.navigation > ul > li > a{
+.dropdown > a{
     height: 100%;
     width: 100%;
     display: block;
@@ -71,6 +66,37 @@ li:hover{
     line-height: 60px;
     text-decoration: none;
     color: white;
+}
+
+.dropdown > p:hover, .dropdown > a:hover{
+    cursor: pointer;
+}
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(116, 116, 116, 0.2);
+    z-index: 1;
+    top: 6%;
+}
+
+.dropdownContent > a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownContent > a:hover{
+    background-color: #717171;
+}
+
+.dropdown:hover .dropdownContent{
+    display: block;
 }
 
 .headerLogo{
@@ -207,6 +233,7 @@ button.navButton{
     display: block;
     text-align: center;
     margin-top: 2%;
+    font-style: italic;
 }
 
 .footer{
@@ -215,6 +242,11 @@ button.navButton{
     display: flex;
     align-items: top;
     justify-content: space-evenly;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    
 }
 
 .footer > div{
