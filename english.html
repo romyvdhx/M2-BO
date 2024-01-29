@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXT Museum</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body id="js--body">
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <button id="js--menu" class="headerLogo"><img src="images/logo.jpg"
+                        alt="Het logo van het NXT Museum"></button>
+            </div>
+            <div class="navigation">
+                <div class="dropdown">
+                    <p>What's on</p>
+                    <div class="dropdownContent">
+                        <a href="https://nxtmuseum.com/nl/tentoonstelling/">On display now</a>
+                        <a href="https://virtual.nxtmuseum.com">Virtual gallery</a>
+                        <a href="https://nxtmuseum.com/nl/events/">Events</a>
+                        <a href="https://nxtmuseum.com/nl/vorige-tentoonstellingen/">
+                            Previously in NXT</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <p>Your visit</p>
+                    <div class="dropdownContent">
+                        <a href="https://nxtmuseum.com/nl/jouw-bezoek/">
+                            Visitor info</a>
+                        <a href="https://nxtmuseum.com/nl/ruimte-huren-amsterdam/">
+                            Plan your event</a>
+                        <a href="https://nxtmuseum.com/nl/educatie_en_workshops/">Education and workshops</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="https://nxtmuseum.com/nl/de-kunst-van-morgen-vandaag/">About us</a>
+                </div>
+                <div class="dropdown">
+                    <a href="https://nxtmuseum.com/nl/nxt-news/">Blog</a>
+                </div>
+            </div>
+            <div class="language">
+                <ul>
+                    <li class="languageList inactive"><a href="index.html">NL</a></li>
+                    <li class="languageList inactive">|</li>
+                    <li class="languageList"><a href="english.html">EN</a></li>
+                </ul>
+            </div>
+            <div class="tickets">
+                <a href="https://tickets.nxtmuseum.com/nl/tickets?_gl=1*178d6gn*_ga*MjA2MDA2MTAzMi4xNzA2MjA5MDk0*_ga_FL5TDXMYGX*MTcwNjIwOTA5NC4xLjAuMTcwNjIwOTA5Ni4wLjAuMA..*_fplc*UEFGOUZyMmZ5bzl1NUtpSDJPb0VMUHEza3RNZFpheHA1bWM1QWtRWlpOTUx5TjQlMkJnWDVQS2hwZWZEcGhpd1pHSUtoZmh2MWEyJTJCTU9FRE04cDklMkJZViUyRmIzTWFVYTJPeGI1RmJ0YzM2b21iZXN3JTJCeiUyQnJtdCUyRnUxejNCZ3B4ZVElM0QlM0Q."
+                    class="button">Tickets</a>
+            </div>
+        </nav>
+    </header>
+    <nav id="js--nav" class="mainNavigation">
+        <ul class="mainNavigationList">
+            <li class="mainNavigationListItem"><a href="index.html">Home</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/tentoonstelling/">What's on</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/jouw-bezoek/">
+                Your visit</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/de-kunst-van-morgen-vandaag/">
+                About us</a></li>
+            <li class="mainNavigationListItem"><a href="https://nxtmuseum.com/nl/nxt-news/">Blog</a></li>
+        </ul>
+        <button id="js--xbutton" class="navButton">X</button>
+    </nav>
+    <main>
+        <figure class="bigFigure">
+            <h1 id="js--h1">NXT MUSEUM</h1>
+            <img src="images/background.jpg" alt="">
+        </figure>
+        <section class="slideshowBackground">
+            <section class="slideshowSection">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="images/tentoonstelling2.jpg" style="width:100%">
+                        <div class="text">Living Room</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="images/tentoonstelling1.jpg" style="width:100%">
+                        <div class="text">Cracks</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="images/tentoonstelling3.jpg" style="width:100%">
+                        <div class="text">Drawings</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/tentoonstelling4.jpg" style="width:100%">
+                        <div class="text">Life in our Minds Motherflock III</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/tentoonstelling5.jpg" style="width:100%">
+                        <div class="text">Moving Objects</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section class="info">
+                <div class="block">
+                    <h2 class="collectionsTitle">History</h2>
+                    <p class="geschiedenisText">Nxt delivers in a former production studio of 2100 square meters
+                        Museum a unique addition to the flourishing creative district of Amsterdam North.
+                        Inspired by the international museum landscape where interactive technology is driven
+                        Nxt wants to offer visitors a unique and often personalized experience at exhibitions
+                        Museum to be the pioneer in the field of emerging tech, new media art and visitor experience
+                        The Netherlands.</p>
+                    <p>Nxt Museum, founded by the young entrepreneur Merel van Helsdingen, exhibits large-scale exhibits
+                        art installations, which are developed from interdisciplinary collaborations between
+                        established and emerging artists, designers, technicians, musicians and scientists.</p>
+                </div>
+                <div class="block">
+                    <h2 class="collectionsTitle">Reviews</h2>
+                    <p class="name">Van Lum</p>
+                    <p class="text">I would like to invite you to a wonderful place where light, the digital world and
+                        artificial intelligence play together. A fantastic spectacle! An amazing experience. There is
+                        also a restaurant in the museum, where they cook excellently! Perfect for a rainy day.
+                        Great staff. Thanks Sam.</p>
+                    <p class="name">Renata Repovska</p>
+                    <p class="text">I wanted to share my experience about my visit to the NXT museum.
+                        I went on tour with my teammates in November 2023 and it was breathtaking! The
+                        installations had interactive aspects that were fascinating and the music was stunning,
+                        which made the whole experience complete.
+                        We were also impressed by the staff who were very friendly and spoke perfect English.
+                        Moreover, the building, which used to be an old TV studio, suits the needs of the
+                        museum.
+                        I would definitely recommend this museum, not just to tech and media people, but to everyone. It
+                        was a unique and unforgettable experience.</p>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="openingstijden">
+                <h2>Opening Hours</h2>
+                <p>Sun - Tues: 10:30 - 20:30</p>
+                <p>Wed: 11:00 - 21:30</p>
+                <p>Thurs - Sat: 10:30 - 22:30</p>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>Nxt Museum</p>
+                <p>Asterweg 22</p>
+                <p>1031HP Amsterdam</p>
+                <a
+                    href="https://www.google.com/maps/place/Nxt+Museum/@52.3912228,4.9018099,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6093179f05169:0xb7418dbe6d40beb6!8m2!3d52.3912196!4d4.9043902!16s%2Fg%2F11jp00dmgj?entry=ttu">Google
+                    Maps</a>
+            </div>
+            <div class="socials">
+                <h2>Socials</h2>
+                <figure>
+                    <img src="images/instagramLogo.png" alt="">
+                    <a href="https://www.instagram.com/nxtmuseum/">Instagram</a>
+                </figure>
+                <figure>
+                    <img src="images/xLogo.png" alt="">
+                    <a href="https://twitter.com/nxtmuseum">X</a>
+                </figure>
+                <figure>
+                    <img src="images/tiktokLogo.png" alt="">
+                    <a href="https://www.tiktok.com/@nxtmuseum">TikTok</a>
+                </figure>
+                <figure>
+                    <img src="images/youtubeLogo.png" alt="">
+                    <a href="https://www.youtube.com/channel/UC1Afhs22rJqLfblV4GOpFTA">YouTube</a>
+                </figure>
+            </div>
+        </div>
+        <p class="madeBy">Made By: Eliza Nabibaks & Romy van den Heuvel</p>
+    </footer>
+</body>
+
+</html>
