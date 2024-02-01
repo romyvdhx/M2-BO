@@ -476,3 +476,13 @@ button.navButton{
         opacity: 1;
     }
 }
+
+@media screen and (max-width:1350px){
+    body{
+        font-size: 18px;
+    }
+
+    .dropdown > p, .dropdown > a{
+        font-size: 16px;;
+    }
+}
